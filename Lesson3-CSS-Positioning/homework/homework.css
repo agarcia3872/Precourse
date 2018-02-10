@@ -1,6 +1,6 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
+/*
+Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files
+in this folder, you are in the wrong place.
 */
 
 
@@ -8,36 +8,84 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
-
+#exerciseTwo {
+  display: none;
+}
 
 
 /* Exercise Three: */
 
-/* Place code here */
 
+/* Place code here */
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
 
 /* Exercise Four: */
 
+
 /* Place code here */
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 
 
 /* Exercise Five */
 
 /* Place code here */
-
+#exerciseFive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 /* Exercise Six */
+#exerciseFive {
+    flex-direction: row-reverse;
+}
+
+
 
 #exerciseSeven {
   display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+#itemOne {
+  position: absolute;
+  left: 0px;
+  align-self: flex-end;
+}
+#itemTwo {
+  position: absolute;
+  right: 0px;
+}
+
+#itemThree {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  align-self: flex-start;
+}
+#itemFour {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
